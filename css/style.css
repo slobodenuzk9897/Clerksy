@@ -151,10 +151,32 @@ line-height: 54px;
 
 .production {
   background-color: #163A24;
-  padding: 66px 0 120px 0;
-  margin: auto;
+  
 }
 
+
+.production_container {
+  padding: 66px 0 120px 0;
+  margin: auto;
+  max-width: 1180px;
+}
+
+.production_name{
+  padding-bottom: 74px;
+  color: #FBFAF7;
+
+text-align: center;
+font-family: "Recoleta";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 54px;
+}
+
+.production_article {
+  display: flex;
+  justify-content: center;
+}
 
 
 
