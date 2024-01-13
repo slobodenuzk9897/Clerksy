@@ -132,7 +132,15 @@ header nav li a {
 }
 
 .partners_name {
-  margin: auto;
+  margin-bottom: 66px;
+  color: #163A24;
+
+text-align: center;
+font-family: "Recoleta";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 54px;
 }
 
 
