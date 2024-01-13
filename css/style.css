@@ -127,6 +127,7 @@ header nav li a {
 
 
 .partners {
+  max-width: 984px;
   padding: 114px 0 0 0;
   margin: auto;
 }
