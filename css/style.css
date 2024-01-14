@@ -180,6 +180,13 @@ line-height: 54px;
   list-style: none;
 }
 
+.img_wrapper{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .icons_production {
   width: 117px;
 height: 145px;
@@ -205,6 +212,9 @@ line-height: 27px;
 
 .sec_employees {
   background-color: F2EFE6;
+  background-image: url(../images/people.png);
+  background-repeat: no-repeat;
+  background-position: right 32% bottom;
 }
 
 .employees {
