@@ -212,9 +212,9 @@ line-height: 27px;
 
 .sec_employees {
   background-color: F2EFE6;
-  background-image: url(../images/people.png);
+  /* background-image: url(../images/people.png);
   background-repeat: no-repeat;
-  background-position: right 32% bottom;
+  background-position: right 32% bottom; */
 }
 
 .employees {
