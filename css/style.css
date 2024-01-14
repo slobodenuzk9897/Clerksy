@@ -224,6 +224,7 @@ line-height: 27px;
 }
 
 .employees_name {
+  margin: auto;
   margin-bottom: 27px;
   max-width: 800px;
 
@@ -238,6 +239,7 @@ line-height: 27px;
 
 
 .focus {
+  margin: auto;
 margin-bottom: 2px;
 max-width: 730px;
 
