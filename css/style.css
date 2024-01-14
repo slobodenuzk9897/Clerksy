@@ -203,6 +203,54 @@ font-weight: 400;
 line-height: 27px;
 }
 
+.sec_employees {
+  background-color: F2EFE6;
+}
+
+.employees {
+  padding: 114px 0;
+  margin: auto;
+  max-width: 1180px;
+}
+
+.employees_name {
+  margin-bottom: 27px;
+
+  color: #163A24;
+
+  text-align: center;
+  font-family: "Recoleta";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;}
+
+
+.focus {
+margin-bottom: 2px;
+
+color: #163A24;
+
+text-align: center;
+font-family: "Recoleta";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
