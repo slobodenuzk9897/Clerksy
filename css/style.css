@@ -220,14 +220,12 @@ line-height: 27px;
 }
 
 .sec_employees {
+  padding: 114px 0;
   background-color: F2EFE6;
-  /* background-image: url(../images/people.png);
-  background-repeat: no-repeat;
-  background-position: right 32% bottom; */
 }
 
 .employees {
-  padding: 114px 0;
+  
   margin: auto;
   max-width: 1180px;
 }
