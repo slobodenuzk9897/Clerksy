@@ -163,7 +163,6 @@ line-height: 54px;
   
 }
 
-
 .production_container {
  
   margin: auto;
@@ -188,6 +187,8 @@ line-height: 54px;
   justify-content: space-between;
   list-style: none;
 }
+
+
 
 .img_wrapper{
   display: flex;
