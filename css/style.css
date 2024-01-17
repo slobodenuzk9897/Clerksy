@@ -186,20 +186,20 @@ line-height: 54px;
   justify-content: center;
 }
 
-/* .production_article {
-  display: flex;
- 
-  justify-content: space-between;
-  list-style: none;
-} */
+.production_article {
+  /* display: flex; */
+ align-items: center;
+  /* justify-content: space-between;
+  list-style: none; */
+}
 
 
-
+/* 
 .img_wrapper{
   display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 
 .icons_production {
