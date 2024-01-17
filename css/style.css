@@ -183,12 +183,13 @@ line-height: 54px;
 
 .container_partners {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  
 }
 
 .production_article {
   /* display: flex; */
- align-items: center;
+ text-align: center;
   /* justify-content: space-between;
   list-style: none; */
 }
@@ -203,7 +204,7 @@ line-height: 54px;
 
 
 .icons_production {
-  width: 117px;
+  /* width: 117px; */
 height: 145px;
   margin-bottom: 28px;
 }
