@@ -148,7 +148,7 @@ line-height: 54px;
 }
 
 .links_partners {
- 
+ display: flex;
   justify-content: space-between;
 }
 
