@@ -158,13 +158,14 @@ line-height: 54px;
 }
 
 .production {
+  padding: 66px 0 120px 0;
   background-color: #163A24;
   
 }
 
 
 .production_container {
-  padding: 66px 0 120px 0;
+ 
   margin: auto;
   max-width: 1180px;
 }
