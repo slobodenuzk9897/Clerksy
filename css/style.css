@@ -124,11 +124,13 @@ header nav li a {
   line-height: 27px;
 }
 
-
+.sec_partners {
+  padding: 114px 0 0 0;
+}
 
 .partners {
   max-width: 1000px;
-  padding: 114px 0 0 0;
+ 
   margin: auto;
   margin-bottom: 120px;
 }
@@ -143,6 +145,11 @@ font-size: 48px;
 font-style: normal;
 font-weight: 600;
 line-height: 54px;
+}
+
+.links_partners {
+  display: inline-block;
+  justify-content: space-between;
 }
 
 .logo_partner {
