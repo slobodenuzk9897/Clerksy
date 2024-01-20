@@ -550,7 +550,7 @@ margin-bottom: 26px;
 .list_easy {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 140px;
   margin: auto;
 
   color: #163A24;
@@ -583,10 +583,18 @@ margin-bottom: 40px;
 
 .after_list::after {
   content: url(../images/right.svg);
+  display: inline-block;
+  position: relative;
+  top: -75%;
+  right: -70%;
 }
 
 .after_list2::after {
   content: url(../images/right_lower.svg);
+  display: inline-block;
+  position: relative;
+  top: -75%; 
+  right: -70%;
 }
 
 .list_background {
@@ -610,7 +618,27 @@ line-height: 31.5px;
 }
 
 
+.link_easy {
+  border-radius: 160px;
+background: #198C36;
+width: 244px;
+height: 52px;
 
+color: #FBFAF7;
+
+text-align: center;
+font-family: "Recoleta";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
 
 
 
