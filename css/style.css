@@ -479,6 +479,7 @@ margin-bottom: 15px;
   flex-direction: column;
   
   margin: auto;
+  padding-right: 40px;
    padding-left: 40px ; 
   width: 353px;
 height: 430px;
@@ -499,6 +500,7 @@ box-shadow: 5px 5px 20px 0px #E9E4D5;
   flex-direction: column;
   
   margin: auto;
+  padding-right: 40px;
    padding-left: 40px ; 
   width: 353px;
   height: 393px;
@@ -579,30 +581,37 @@ margin-bottom: 40px;
 
 .list_line {
   margin-bottom: 12px;
+  position: relative;
 }
 
 .after_list::after {
   content: url(../images/right.svg);
   display: inline-block;
-  position: relative;
-  top: -75%;
-  right: -70%;
+  position: absolute;
+  top: 47%;
+  right: 65%;
 }
 
 .after_list2::after {
   content: url(../images/right_lower.svg);
   display: inline-block;
-  position: relative;
-  top: -75%; 
-  right: -70%;
+  position: absolute;
+  top: 45%;
+  right: 30%;
 }
 
 .list_background {
   background-image: url(../images/circle.svg);
   background-repeat: no-repeat;
   background-position: center;
-  
+  background-size: contain;
+  background-position: right 32% bottom;
 height: 179.73px;
+display: flex;
+}
+
+.list_par{
+  margin: auto;
 }
 
 .list_price {
@@ -614,7 +623,7 @@ font-size: 28px;
 font-style: normal;
 font-weight: 600;
 line-height: 31.5px;
-
+margin: auto;
 }
 
 
@@ -641,23 +650,153 @@ align-items: center;
 }
 
 
+/*----------EXPERIENCE----------*/
+
+.experience {
+  padding: 120px 0;
+  margin: auto;
+}
 
 
+.wrapper_experience {
+  max-width: 1000px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+ gap: 100px;
+ 
+}
+
+.experience_name {
+  color: #163A24;
+
+  font-family: "Recoleta";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 20px;
+ }
+
+.experience_text {
+  color: #163A24;
+
+  font-family: "Recoleta";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; 
+margin-bottom: 20px;
+}
+
+.experience_link {
+  color: #FBFAF7;
+
+  font-family: "Recoleta";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container_exp_link {
+  border-radius: 160px;
+background: #198C36;
+padding: 15px 20px;
+
+width: 191px;
+}
+
+/* .img_exper{
+  background-image: url(../images/yellow_circle.svg);
+  width: 490.042px;
+  height: 487.906px;
+} */
 
 
+/* -----------LET START--------- */
+
+.let_start {
+padding: 115px 0;
+margin: auto;
+background: #163A24;
+background-image: url(../images/leaves1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    
+}
+
+.wrapper_let_start {
+  margin: auto;
+  
+}
 
 
+.let_start2{
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-image: url(../images/leaves2.png);
+ 
+}
+
+.let_start_name {
+  color: #FBFAF7;
+
+text-align: center;
+font-family: "Recoleta";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 54px;
+margin: auto;
+margin-bottom: 26px;
+}
 
 
+.let_start_text{
+  color: #FBFAF7;
 
+text-align: center;
+font-family: "Recoleta";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+margin: auto;
 
+margin-bottom: 18px;
+}
 
+.let_start_link{
+  margin: auto;
+  border-radius: 160px;
+background: #FAB5A0;
+width: 258px;
+padding: 15px 25px;
+}
 
+.Book_free {
+  color: #163A24;
 
-
-
-
-
+text-align: center;
+font-family: "Recoleta";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
 
 
