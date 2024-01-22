@@ -605,13 +605,19 @@ margin-bottom: 40px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-position: right 32% bottom;
+  /* background-position: right 32% bottom; */
 height: 179.73px;
-display: flex;
+/* display: flex; */
 }
 
 .list_par{
+  
+  padding-top: 45px;
   margin: auto;
+}
+
+.list_mb {
+  margin-bottom: 12px;
 }
 
 .list_price {
@@ -728,9 +734,9 @@ width: 191px;
 padding: 115px 0;
 margin: auto;
 background: #163A24;
-background-image: url(../images/leaves1.png);
+background-image: url(../images/leavesNew.jpg);
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: bottom;
     
 }
 
@@ -740,12 +746,12 @@ background-image: url(../images/leaves1.png);
 }
 
 
-.let_start2{
+/* .let_start2{
   background-repeat: no-repeat;
   background-position: right bottom;
   background-image: url(../images/leaves2.png);
  
-}
+} */
 
 .let_start_name {
   color: #FBFAF7;
