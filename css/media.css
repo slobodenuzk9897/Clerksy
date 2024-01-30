@@ -1,0 +1,134 @@
+@media screen and (max-width: 1207px) {
+    .hero {
+        background-position: right -6% bottom;
+    padding: 0 20px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        background-position: right -40% bottom;
+        
+    }
+    header {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .hero {
+        background-image: none;
+    }
+
+    .wrapper_human {
+        flex-direction: column;
+    }
+
+    .put_the_human {
+        padding: 20px 0;
+        
+    }
+
+    
+    .human_name {
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+
+    .human_text {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+   
+    .wrapper_help {
+        flex-direction: column;
+    }
+    .help_name {
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+
+    .help_text {
+        font-size: 18px;
+    }
+
+    .order_one {
+        order: 2;
+    }
+
+    .order_two {
+        order: 1;
+    }
+
+    .links_partners {
+        justify-content: space-around;
+        flex-flow: row wrap;
+        gap: 10px 25px;
+    align-items: center;
+    }
+
+.production_name {
+    font-size: 35px;
+}
+
+    .container_partners {
+        flex-wrap: wrap;
+        gap: 10px 20px;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        background-image: none;
+    }
+    header nav ul {
+        display: block;
+        }
+        .first_mob {
+            margin-bottom: 30px;
+        }
+        .container {
+            align-items: none;
+        }
+
+        header nav {
+            display: flex;
+            padding: 10px 0;
+            justify-content: flex-end;
+        }
+
+        .p_tab {
+            padding: 0 20px;
+        }
+}
+
+@media screen and (max-width: 430px) {
+    .hero {
+        background-image: none;
+    }
+
+    .mobile_img {
+        width: 335px;
+    }
+
+    .put_the_human {
+        padding: 0 20px;
+    }
+
+    .help {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero {
+        background-image: none;
+    }
+}
+
+
+
+
+

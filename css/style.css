@@ -175,6 +175,10 @@ line-height: 27px;
   margin: auto;
 }
 
+.order_one {
+  order: 1;
+}
+
 .help_name {
 color: #163A24;
 
@@ -194,6 +198,10 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 27px;
+}
+
+.order_two {
+  order: 2;
 }
 /*-------SECTION PARTNERS----------*/
 
@@ -714,13 +722,14 @@ margin: auto;
 display: flex;
 justify-content: center;
 align-items: center;
+border-radius: 160px;
+background: #198C36;
+padding: 15px 20px;
 
 }
 
 .container_exp_link {
-  border-radius: 160px;
-background: #198C36;
-padding: 15px 20px;
+  
 
 width: 191px;
 }
@@ -737,10 +746,10 @@ width: 191px;
 .let_start {
 padding: 115px 0;
 margin: auto;
-background: #163A24;
+
 background-image: url(../images/leavesNew.jpg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-size: cover;
     
 }
 
@@ -786,17 +795,16 @@ margin-bottom: 18px;
 }
 
 .let_start_link{
- 
-}
-
-.Book_free {
-  color: #163A24;
-
   margin: auto;
   border-radius: 160px;
 background: #FAB5A0;
 width: 258px;
 padding: 15px 25px;
+}
+
+.Book_free {
+  color: #163A24;
+
 text-align: center;
 font-family: "Recoleta";
 font-size: 16px;
