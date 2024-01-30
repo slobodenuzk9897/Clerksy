@@ -14,6 +14,14 @@
     header {
         padding: 10px 20px;
     }
+
+    .img_none {
+        width: 1000px;
+    }
+
+    .fit_together {
+        padding: 80px 20px;
+    }
 }
 
 @media screen and (max-width: 830px) {
@@ -26,7 +34,7 @@
     }
 
     .put_the_human {
-        padding: 20px 0;
+        padding: 70px 0;
         
     }
 
@@ -77,6 +85,53 @@
         gap: 10px 20px;
         padding: 0 20px;
     }
+    
+
+    .employees_name {
+        font-size: 35px;
+    }
+
+    .img_none {
+        width: 800px;
+    }
+
+    
+
+.wrapper_fit_together {
+    flex-direction: column;
+}
+
+.fit_together_name {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.p_update {
+    padding: 0 20px;
+}
+.container_articles_consider {
+    flex-direction: column;
+}
+
+.easy {
+    padding: 80px 20px;
+}
+
+.wrapper_experience {
+    flex-direction: column;
+}
+
+.exp_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience_name {
+    font-size: 35px;
+}
+
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -102,6 +157,27 @@
         .p_tab {
             padding: 0 20px;
         }
+
+        .container_partners {
+            flex-direction: column;
+        }
+
+        .img_none {
+            display: none;
+        }
+
+        .list_easy {
+            max-width: 300px;
+            flex-direction: column;
+        }
+
+        .let_start {
+           
+        }
+
+        .mobil {
+            width: 340px;  
+        }
 }
 
 @media screen and (max-width: 430px) {
@@ -120,6 +196,16 @@
     .help {
         padding: 0 20px;
     }
+
+    .experience_name {
+        padding: 0 20px;
+    }
+
+    /* .let_start {
+        background-image: none;
+    } */
+
+   
 }
 
 @media screen and (max-width: 320px) {
