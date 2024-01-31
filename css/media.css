@@ -22,6 +22,54 @@
     .fit_together {
         padding: 80px 20px;
     }
+
+    .put_the_human {
+        padding: 120px 20px;
+    }
+
+    .help {
+        padding: 40px 20px;
+    }
+
+    .experience_name {
+        padding: 0 20px;
+    }
+
+    .sec_partners {
+        padding: 114px 20px;
+    }
+
+    .production {
+        padding: 66px 20px 120px 20px;
+    }
+
+    .img_none {
+        max-width: 825px;
+    }
+     
+
+.container_articles_consider {
+    flex-direction: column;
+}
+
+.list_background {
+    padding: 40px;
+   
+}
+
+.after_list::after {
+    top: 40%;
+    right: 67%;
+}
+
+.after_list2::after {
+    right: 34%;
+    top: 46%;
+}
+
+.experience {
+    padding: 120px 20px;
+}
 }
 
 @media screen and (max-width: 830px) {
@@ -72,7 +120,7 @@
     .links_partners {
         justify-content: space-around;
         flex-flow: row wrap;
-        gap: 10px 25px;
+        gap: 40px 25px;
     align-items: center;
     }
 
@@ -178,6 +226,26 @@
         .mobil {
             width: 340px;  
         }
+
+        .after_list::after {
+            transform: rotate(86deg);
+            top: 22%;
+            right: 38%;
+        }
+
+        .after_list2::after {
+            transform: rotate(86deg);
+            top: 57%;
+            right: 41%;
+        }
+
+        .let_start {
+            background-image:none;
+        }
+
+        .sec_partners {
+            padding: 80px 20px;
+        }
 }
 
 @media screen and (max-width: 430px) {
@@ -190,7 +258,7 @@
     }
 
     .put_the_human {
-        padding: 0 20px;
+        padding: 80px 20px;
     }
 
     .help {
@@ -205,7 +273,32 @@
         background-image: none;
     } */
 
-   
+    .consider_articles {
+        margin-left: 15px;
+        padding: 0 30px;
+        width: 285px;
+        height: 370px;
+        
+    }
+
+    .consider_articles2 {
+        margin-left: 15px;
+        padding: 0 30px;
+        width: 285px;
+        height: 390px;
+    }
+
+    .consider_articles3 {
+        margin-left: 15px;
+        padding: 0 30px;
+        width: 285px;
+        height: 370px;
+    }
+
+    .sec_employees {
+        padding: 100px 20px;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
